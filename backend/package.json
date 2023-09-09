@@ -1,0 +1,27 @@
+{
+  "name": "log-watch",
+  "version": "1.0.0",
+  "description": "log watch server",
+  "main": "server.js",
+  "scripts": {
+    "dev": "NODE_ENV=development ts-node-dev --respawn ./src/server.ts",
+    "build": "tsc"
+  },
+  "author": "Shivam",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "find-my-way": "^7.6.2",
+    "helmet": "^6.1.5",
+    "mongodb": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.4"
+  }
+}
