@@ -1,5 +1,5 @@
 import { useRoutes } from "react-router-dom";
-import LogList from "../pages/log-list/LogList";
+import LogList from "../pages/log-list";
 
 function Routes() {
     const routes = useRoutes([
